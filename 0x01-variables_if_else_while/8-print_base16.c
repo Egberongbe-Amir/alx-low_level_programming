@@ -10,9 +10,9 @@ int fig;
 char letter;
 
 for (fig = 0; fig < 10; fig++)
-putchar((num % 10) + '0');
+putchar((fig % 10) + '0');
 
-for (letter = 'a'; letter = 'f'; letter++)
+for (letter = 'a'; letter <= 'f'; letter++)
 putchar(letter);
 putchar('\n');
 
