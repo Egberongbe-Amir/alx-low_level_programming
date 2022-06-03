@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- * main – Print void
+ * main – Prints "grammar"
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
