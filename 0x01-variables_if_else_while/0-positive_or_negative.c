@@ -1,6 +1,6 @@
-include<stdlib.h>
-include<time.h>
-include<stdio.h>
+include <stdlib.h>
+include <time.h>
+include <stdio.h>
 /**
  * main - Prints a random number and what
  * is positive or negative
