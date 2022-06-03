@@ -17,7 +17,7 @@ int main(void)
 
   printf("Sizeof a char: %lubyte(s)\n", (unsigned long)sizeof(d));
   printf("Sizeof a int: %lubyte(s)\n", (unsigned long)sizeof(a));
-  printf("Size   a long int: %lubyte(s)\n", (unsigned long)sizeof(b));
+  printf("Sizeof a long int: %lubyte(s)\n", (unsigned long)sizeof(b));
   printf("Sizeof a long long int: %lubyte(s)\n", (unsigned long)sizeof(c));
   printf("Sizeof a float %lubyte(s)\n", (unsigned long)sizeof(f));
   return(0);
