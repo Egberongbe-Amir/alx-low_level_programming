@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
-* main – Prints "grammar"
-* 
+* main – Entry Point
+*
 * Return: Always 0 (Success)
 */
 int main(void)
