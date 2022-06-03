@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- *main – Print void
+ * main – Print void
  *Return: Always 0 (Success)
  */
 int main(void)
