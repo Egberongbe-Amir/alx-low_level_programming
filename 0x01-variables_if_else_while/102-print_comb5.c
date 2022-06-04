@@ -6,27 +6,27 @@
 */
 int main(void)
 {
-  int fig1, fig2;
+int fig1, fig2;
+  
+for (fig1 = 0; fig1 <= 98; fig1++)
+{
+for  (fig2 = fig1 + 1; fig2 <= 99; fig2++)
+{
+putchar((fig1 / 10) + '0');
+putchar((fig1 % 10) + '0');
+putchar(' ');
+putchar((fig2 / 10) + '0');
+putchar((fig2 % 10) + '0');
 
-  for (fig1 = 0; fig1 <= 98; fig1++)
-    {
-      for  (fig2 = fig1 + 1; fig2 <= 99; fig2++)
-	{
-	  putchar((fig1 / 10) + '0');
-	  putchar((fig1 % 10) + '0');
-	  putchar(' ');
-	  putchar((fig2 / 10) + '0');
-	  putchar((fig2 % 10) + '0');
+if (fig1 == 98 && fig2 == 99)
+continue;
+ 
+putchar(',');
+putchar(' ');
+}
+}
 
-	  if (fig1 == 98 && fig2 == 99)
-	    continue;
+putchar('\n');
 
-	  putchar(',');
-	  putchar(' ');
-	}
-    }
-
-  putchar('\n');
-
-  return (0);
+return (0);
 }
