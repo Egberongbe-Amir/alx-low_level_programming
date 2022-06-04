@@ -1,0 +1,12 @@
+#include <stdio.h>
+/**
+* main - Prints combination of two digits
+* printed in ascending order, with two digits
+* Return: Always 0
+*/
+int main(void)
+{
+  int digit1,digit2;
+
+  for (digit1 = 0; digit1 < 9; digit1++)
+    for (digit2 = digit + 1; digit2 < 10; digitgit
