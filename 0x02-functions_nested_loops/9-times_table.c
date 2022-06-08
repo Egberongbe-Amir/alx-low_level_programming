@@ -16,7 +16,7 @@ _putchar(',');
 _putchar(' ');
 for (cone = 1; cone <= 9; cone++)
 {
-d = (cone* rone);
+d = (cone * rone);
 if ((d / 10) > 0)
 {
 _putchar((d / 10) + '0');
@@ -33,6 +33,6 @@ _putchar(',');
 _putchar(' ');
 }
 }
- _putchar('\n');
+_putchar('\n');
 }
 }

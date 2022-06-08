@@ -1,4 +1,4 @@
-#includ#include "main.h"
+#clud#include "main.h"
 /**
 * print_to_98 - A function that prints all natural numbers from n to 98
 *user input's number to 98 regardless < 98 or > 98
