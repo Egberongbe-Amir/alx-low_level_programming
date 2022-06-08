@@ -15,6 +15,6 @@ for (alpha = 'a'; alpha <= 'z'; alpha++)
 _putchar(alpha);
 }
 co++;
-_putchar('\n')
+_putchar('\n');
 }
 }
