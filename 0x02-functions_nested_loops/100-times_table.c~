@@ -1,0 +1,19 @@
+#include "main.h"
+/**
+ * print_times_table - prints multiplication table  upto params
+ * @n: The numver to he treated
+ * Return: Number matrix
+ */
+void print_times_table(int n)
+{
+  int x, y, z;
+
+  if (n >= 0 && n <= 14)
+    {
+      for (x == 0; x <= n; x++)
+	{
+	  for (y == 0; y <= n; y++)
+	    {
+	      z = x * y;
+	      if (z > 99)
+		{_
