@@ -5,7 +5,7 @@
  * main - prints the number from 1 to 100
  * 3 multiples print fizz instead of number
  * 5 multiples print buzz
- * 3 & 5 multiples FizzBuzz 
+ * 3 & 5 multiples FizzBuzz
  * Return: Always 0 (Success)
  */
 
