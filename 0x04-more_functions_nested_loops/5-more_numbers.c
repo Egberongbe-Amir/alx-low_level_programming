@@ -6,7 +6,7 @@
  * Return: 0-14 x10 followed by a new lind
  */
 
-void more_numbers{void)
+void more_numbers(void)
 {
 int i, ro;
 
