@@ -11,4 +11,5 @@ void _puts(char *str);
 
 void print_rev(char *s);
 
+int _putchar(char c);
 #endif /*main_h*/

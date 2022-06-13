@@ -14,8 +14,8 @@ int i, len;
 while (s[i++])
 len++;
 for (i = len - 1; i >= 0; i--)
-putchar(s[i]);
+_putchar(s[i]);
 
-putchar('\n');
+_putchar('\n');
 return;
 }
