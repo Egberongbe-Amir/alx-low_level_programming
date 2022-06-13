@@ -21,6 +21,6 @@ s[i] = s[len - i - 1];
 s[len - i - 1] = pick;
 }
 
-printf("%s", s);
+printf("%s\ns", s);
 return;
 }
