@@ -5,6 +5,7 @@
 /**
  * rev_string - Reverse string
  * @s: string to be reserved
+ * Return: void
  */
 
 void rev_string(char *s)
@@ -21,4 +22,5 @@ pick = s[i];
 s[i] = s[len - i - 1];
 s[len - i - 1] = pick;
 }
+return;
 }
