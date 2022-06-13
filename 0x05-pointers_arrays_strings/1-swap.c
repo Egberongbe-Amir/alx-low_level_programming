@@ -1,5 +1,5 @@
-
 #include "main.h"
+#include <stdio.h>
 
 /**
  * swap_int - swap the value of two integer with address given
@@ -10,12 +10,9 @@
 
 void swap_int(int *a, int *b)
 {
-int m;
-int k;
+int m = *b;
+int n = *a;
 
-m = a;
-k = b;
- 
 *a = m;
 *b = n;
 return;
