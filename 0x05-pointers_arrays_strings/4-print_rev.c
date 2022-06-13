@@ -14,7 +14,7 @@ void print_rev(char *s)
 int i, len, pick;
 len = strlen(s);
 
-for (i = 0; i < len / 2; i++)
+ for (i = 0; i < (len / 2); i++)
 {
 pick = s[i];
 s[i] = s[len - i - 1];
