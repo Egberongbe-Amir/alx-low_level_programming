@@ -11,8 +11,6 @@
 
 int _strlen(char *s)
 {
-int k = strlen(s);
-printf("%d", k);
-
-return (0);
+int k = strlen(s)
+return (k);
 }
