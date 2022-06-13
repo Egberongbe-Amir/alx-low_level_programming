@@ -3,11 +3,9 @@
 #include <string.h>
 
 /**
- * rev_string - Reverse string
- * @s: string to be reserved
- *
- */
-
+* rev_string - Reverse string
+* @s: string to be reserved
+*/
 void rev_string(char *s)
 {
 int i;
