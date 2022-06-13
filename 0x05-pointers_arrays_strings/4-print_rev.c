@@ -19,7 +19,8 @@ for (i = 0; i < len / 2; i++)
 pick = s[i];
 s[i] = s[len - i - 1];
 s[len - i - 1] = pick;
+
+} 
 printf("%s\n", s);
-}
-return;
+
 }
