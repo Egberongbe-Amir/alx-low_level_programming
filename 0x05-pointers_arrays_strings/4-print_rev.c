@@ -1,7 +1,6 @@
 #include "main.h"
 #include <stdio.h>
-#include <string.h>
-
+#include <stdlib.h>
 /**
  * print_rev - Prints the reverse of a string
  * @s: String address to be reversed
@@ -11,17 +10,12 @@
 
 void print_rev(char *s)
 {
-int i, len, pick;
-len = strlen(s);
+int i, len;
+while (s[i++])
+len++;
+for (i = len - 1; i >= 0; i--)
+putchar(s[i]);
 
-for (i = 0; i < (len / 2); i++)
-{
-pick = s[i];
-s[i] = s[len - i - 1];
-s[len - i - 1] = pick;
-
-}
-
-printf("%s\n", s);
+putchar('\n');
 return;
 }
