@@ -15,11 +15,11 @@ char rot13key[52] = {'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y',
 while (str[indx1])
 {
 for (indx2 = 0; indx2 < 52; indx2++)
-{ 
+{
 if (str[indx1] == alphabet[indx2])
-{  
-str[indx1] = rot13key[indx2];  
-break;	    
+{
+str[indx1] = rot13key[indx2];
+break;
 }
 }
 indx1++;
