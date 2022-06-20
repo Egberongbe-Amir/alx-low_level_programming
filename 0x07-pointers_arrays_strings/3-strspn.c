@@ -6,7 +6,7 @@
  * @s: Initial segment
  * @accept: @s consist of bytes from
  *
- * Returns: Number of bytes in the initial segment of s
+ * Return: Number of bytes in the initial segment of s
  * Which consist only of bytes from accept
  */
 
