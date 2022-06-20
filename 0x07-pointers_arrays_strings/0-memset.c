@@ -8,14 +8,13 @@
  * @b: constant byte
  * @n: first n byte to be filled
  *
- * Return: Always Zero
+ * Return: A pointer tothe filled memory @s.
  */
 
 char *_memset(char *s, char b, unsigned int n)
 {
 memset(s, b, n);
 
-printf("%s", s);
-return (0);
+return (s);
 }
 
