@@ -17,13 +17,13 @@ int find_sqrt(int num, int root)
 {
 if ((root * root) == num)
 return (root);
-if (root == num/2)
+if (root == num / 2)
 return (-1);
-return (find_sqrt(num, root+1));
+return (find_sqrt(num, root + 1));
 }
 /**
  * _sqrt_recursion -  A function that require rot of a number
- *n: Unknown root of number
+ *@n: Unknown root of number
  *
  * Return: The natural roots
  */
@@ -35,6 +35,5 @@ if (n < 0)
 return (-1);
 if (n == 1)
 return (1);
-
- return (find_sqrt(n, root));
+return (find_sqrt(n, root));
 }
