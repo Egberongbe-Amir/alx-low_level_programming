@@ -1,4 +1,4 @@
-#incude"main.h"
+#incude "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -92,5 +92,5 @@ strings[w][l] = str[index++];
 strings[w][l] = '\0';
 }
 strings[w] = NULL
-return (strings);
+return (strings)
 }
