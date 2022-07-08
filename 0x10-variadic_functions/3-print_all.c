@@ -24,7 +24,7 @@ printf("%c", letter);
  * @arg: A list of arguments pointing to
  *       the integer to be printed.
  */
- void print_int(va_list arg)
+void print_int(va_list arg)
 {
 int num;
 num = va_arg(arg, int);
