@@ -9,7 +9,7 @@
  * Return: If the function fails - NULL.
  *         Otherwise - the address of the new node.
  */
-dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
+listint_t *add_dnodeint_end(dlistint_t **head, const int n)
 {
 	dlistint_t *new, *last;
 
