@@ -1,1 +1,1 @@
-script that runs a C file through the preprocessor and save the result into another file.
+A series of tack on the low level programming language C
